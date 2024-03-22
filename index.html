@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="destop-nav">
+        <div class="logo">Chetan More</div>
+        <div >
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+        </div>
+    </nav>
+    <nav id="ham-nav">
+        <div class="logo">Chetan More</div>
+        <div class="ham-menu"></div>
+        <div class="ham-icon" onclick="toggleMenu()">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="menu-links">
+            <li><a href="#about"onclick="toggleMenu()" >About</a></li>
+            <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+            <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="sec_pic_container">
+            <img src="/assets/profile_img.jpg" alt="Chetan More profile picture">
+        </div>
+        <div class="sec_text">
+            <p class="sec_text_p1">Hello I'm</p>
+            <h1 class="title">Chetan More</h1>
+            <p class="sec_text_p2">FrontEnd Developer</p>
+        <div class="btn_cont">
+            <button class="btn btn_cont_color2"><a href="./assets/BA_resume.pdf">Download CV</a></button>
+            <button class="btn btn_cont_color1" onclick="location.href('./#contact')">Contact_Info</button>
+        </div>
+        <div id="social-container">
+            <img src="./assets/linkedin.png" alt="My Linked Profile" class="icon" onclick="location.href='//www.linkedin.com/in/chetan-more-0b8051283/'">
+            <img src="./assets/github.png" alt="My Github Profile" class="icon" onclick="location.href='https://github.com/chetomore'">
+        </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="sec_text_p1">Get To Know Me</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="sec_pic_container">
+                <img src="./assets/suit_photo.jpg" alt="Profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-container">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="experience icon" class="icon">
+                        <h3>Expereience</h3>
+                        <p>FrontEnd Developer</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Tech(Bachelors in Technology)</p>
+                    </div>
+
+                </div>
+                <div class="text_container">
+                    <p>Greetings! I'm Chetan More, a seasoned web developer adept 
+                        in HTML, CSS, and JavaScript, dedicated to delivering exceptional 
+                        user experiences.With a keen eye for detail and a flair for innovation,
+                         I specialize in creating sleek and modern websites that captivate users."
+                        "Currently immersed in mastering React.js, I strive to bring dynamic
+                         interactivity and seamless functionality to every project.".</p>
+                </div>
+            </div>
+        </div>
+        <img src="/assets/arrow.png" alt="Arrow icon" class="arrow icon" onclick="location.href='./experience'">
+    
+
+
+    </section>
+    <section id="experience">
+        <p class="sec_text_p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-container">
+                <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+                <article>
+                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                <div>
+                    <h3>HTML</h3>
+                    <p>Expereinced</p>
+                </div>
+            </article>
+               
+                <article>
+                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                <div>
+                    <h3>CSS</h3>
+                    <p>Expereinced</p>
+                </div>
+            </article>
+                <article>
+                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                <div>
+                    <h3>Javascript</h3>
+                    <p>Intermediate</p>
+                </div>
+            </article>
+                <article>
+                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                <div>
+                    <h3>ReactJS</h3>
+                    <p>Basic</p>
+                </div>
+            </article>
+            
+      
+            </div>
+            
+        </div>
+                <div class="details-container">
+            <h2 class="experience-sub-title">Version Control/DB</h2>
+            <div class="article-container">
+                <article>
+                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                <div>
+                    <h3>SQL</h3>
+                    <p>Intermediate</p>
+                </div>
+            </article>
+               
+                <article>
+                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                <div>
+                    <h3>C/C++</h3>
+                    <p>Experience</p>
+                </div>
+            </article>
+                <article>
+                <img src="./assets/checkmark.png" alt="experience icon" class="icon">
+                <div>
+                    <h3>Git/Github</h3>
+                    <p>Basics</p>
+                </div>
+            </article>
+            
+            </div>
+            
+        </div>
+
+            </div>
+        </div>
+        
+    </section>
+    <section id="projects">
+        <p class="sec_text_p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+            <div class="about-container project-all-container ">
+            <div class="details-container color-container">
+                <div class="article-container project">
+                    <img src="./assets/project-1.png" alt="pro_1" class="pro-img">
+
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn_cont">
+                    <button class="btn btn_cont_color1  project-btn" onclick="location.href='https://github.com/chetomore'">
+                        Github
+                    </button>
+                    <button class="btn btn_cont_color1  project-btn" onclick="location.href='https://snazzy-cobbler-d155c6.netlify.app'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+            <div class="details-container color-container">
+                <div class="article-container">
+                    <img src="./assets/project-2.png" alt="pro_2" class="pro-img">
+
+                </div>
+                <h2 class="experience-sub-title project-title">Project One</h2>
+                <div class="btn_cont">
+                    <button class="btn btn_cont_color1  project-btn" onclick="location.href='https://github.com/chetomore'">
+                        Github
+                    </button>
+                    <button class="btn btn_cont_color1  project-btn" onclick="location.href='https://github.com/chetomore'">
+                        Live Demo
+                    </button>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="sec_text_p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="Contact-info-upper-container">
+            <div class="contain-info-container">
+                <img src="./assets/email.png" alt="Email.icon" class="icon contain-icon">
+                <p><a href="mailto:chetan.o.more@gmail.com">Chetan.More@gmail</a></p>
+            </div>
+            <div class="contain-info-container">
+                <img src="./assets/linkedin.png" alt="LinkedIn.icon" class="icon contain-icon">
+                <p><a href="//www.linkedin.com/in/chetan-more-0b8051283/">LinkedIn</a></p>
+            </div>
+        </div>
+
+    </section>
+    <footer>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+            </ul>
+
+        </nav>
+        <p>Copyright &#169</p>
+
+    </footer>
+
+    </body>
+
+    <script src="script.js"></script>
+</body>
+</html>
